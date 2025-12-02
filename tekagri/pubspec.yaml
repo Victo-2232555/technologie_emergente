@@ -1,0 +1,37 @@
+#/**
+# définit les informations de base de mon application, comme sa version actuelle, 
+# ses dépendances et les éléments utilisés pour son implémentation.
+#* Inspiré de : https://codelabs.developers.google.com/codelabs/flutter-codelab-first?hl=fr#2
+#*
+ #*/
+
+
+name: tekagri
+description: "Application de suivi intelligent pour l’agriculture durable"
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.5.0
+  geolocator: ^10.1.0
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+  uses-material-design: true
